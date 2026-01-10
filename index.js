@@ -10,7 +10,7 @@ const mongoport = process.env.MONGo_PORT || 27017;
 
 
 // Connect to MongoDB
-mongoose.connect('mongodb://${HOSTNAME}:${HOSTPORT}/yourDatabaseName', {
+mongoose.connect('mongodb://${mongohost}:${mongoport}/yourDatabaseName', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
