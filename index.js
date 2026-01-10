@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const mongohost = process.env.MONGO_HOST || 'localhost';
-const mongoport = process.env.MONGo_PORT || 27017;
+const mongoport = process.env.MONGO_PORT || 27017;
 
 
 // Connect to MongoDB
